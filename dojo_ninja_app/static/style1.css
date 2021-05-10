@@ -1,0 +1,88 @@
+
+.container {
+    background-color:darkseagreen;
+    
+    margin:0px auto;
+    width:970px;
+    font-size:15pt;
+    padding:10px;
+}
+
+#top-half {
+    display:flex;
+    /* align-items: center; */
+    justify-content:space-between;
+}
+
+.h1-head {
+    text-align: center;
+}
+
+.dojo {
+    justify-content:right;
+    flex:1;
+    padding:10px;
+    width:30%;
+    
+}
+
+.ninja {
+    justify-self: center;
+    flex:1;
+    padding:10px;
+    width:30%;
+    justify-content: left;
+}
+
+.input1 {
+    padding:5px 10px 5px 5px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.input2 {
+    padding:5px;
+    
+}
+.btn-input {
+    text-align: right;
+}
+.title {
+    flex:1;
+    padding-left:0px;
+    text-align:right;
+    margin-right:10px;   
+}
+
+.content {
+    flex:2;
+    height:20px;
+}
+
+
+
+.ul-list  {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#bold_dojo {
+    margin-right:10px;
+}
+
+#for-select {
+    height:25px;
+}
+
+/* bottom css */
+
+.bot-div {
+    text-align: center;
+}
+
+.bot_h1 {
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top:10px;
+    padding-top: 10px;
+}
